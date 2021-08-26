@@ -80,5 +80,12 @@ document.addEventListener("keyup",function(e){
 
 function volume1(){
   volume=prompt("Enter the volume in the range 0 to 1");
-  
+  if(volume>1){
+    alert("Volume cannot be greater than 1, enter volume again");
+    volume1();
+  }
+  if(volume=="null" && volume==""){
+    alert("You have to add some value");
+    volume1();
+  }
 }
