@@ -37,8 +37,7 @@ body{
 }
 
 #volume{
-   margin-left:600px;
-   margin-top: 40px;
+  
    cursor:pointer;
    font-size: 20px;
    padding: 4px;
@@ -50,4 +49,11 @@ body{
 #volume:hover{
   color:white;
   background-color: black;
+}
+
+.container2{
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
 }
